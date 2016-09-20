@@ -1,0 +1,26 @@
+.readmore.content {
+    font-size: 15px;
+    color: #757575;
+    white-space: pre-line;
+    height: 9em;
+    min-height: 9em;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.readmore.content.expand {
+    height: 100%;
+}
+
+.readmore.toggle {
+    padding: 12px 0;
+    font-size: 15px;
+    color: #bdbdbd;
+
+    a {
+        cursor: pointer;
+    }
+    a:active {
+        opacity: 0.5;
+    }
+}
